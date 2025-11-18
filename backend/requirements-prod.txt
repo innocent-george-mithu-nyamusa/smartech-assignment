@@ -1,0 +1,14 @@
+# Production dependencies (lightweight - no ML libraries needed for mock data)
+
+# FastAPI and server
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# HTTP and async
+httpx==0.27.2
+
+# Utilities
+python-dotenv==1.0.1
+python-multipart==0.0.17
